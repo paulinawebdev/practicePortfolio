@@ -382,6 +382,7 @@
 .single-portfolio{
     border-radius:5px;
     padding-bottom: .5rem;
+    min-height: 200px;
     &:hover{
         .thumb{
             .overlay-bg{
@@ -392,11 +393,11 @@
 }
 
 .thumb{
+    min-height: 200px;
     .overlay-bg{
         @extend .p1-gradient-bg;
         opacity:0;
-        border-radius:5px; 
-        min-height: 200px;
+        border-radius:5px;
         @include transition();
     }
 }

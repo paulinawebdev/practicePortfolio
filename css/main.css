@@ -2546,15 +2546,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-portfolio {
   border-radius: 5px;
   padding-bottom: 0.5rem;
+  min-height: 200px;
 }
 .single-portfolio:hover .thumb .overlay-bg {
   opacity: 0.85;
 }
 
+.thumb {
+  min-height: 200px;
+}
 .thumb .overlay-bg {
   opacity: 0;
   border-radius: 5px;
-  min-height: 200px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
