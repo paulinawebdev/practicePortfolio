@@ -390,10 +390,12 @@
             }
         }
     }
+    .thumb {
+        min-height: 200px;
+    }
 }
 
 .thumb{
-    min-height: 200px;
     .overlay-bg{
         @extend .p1-gradient-bg;
         opacity:0;

@@ -2551,10 +2551,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-portfolio:hover .thumb .overlay-bg {
   opacity: 0.85;
 }
-
-.thumb {
+.single-portfolio .thumb {
   min-height: 200px;
 }
+
 .thumb .overlay-bg {
   opacity: 0;
   border-radius: 5px;
