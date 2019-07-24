@@ -382,20 +382,24 @@
 .single-portfolio{
     border-radius:5px;
     padding-bottom: .5rem;
+    min-height: 350px;
     &:hover{
         .thumb{
             .overlay-bg{
                 opacity:.85;
             }
         }
-    }    
+    }
+    .thumb {
+        min-height: 200px;
+    }
 }
 
 .thumb{
     .overlay-bg{
         @extend .p1-gradient-bg;
         opacity:0;
-        border-radius:5px;  
+        border-radius:5px;
         @include transition();
     }
 }
